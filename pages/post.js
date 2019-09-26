@@ -6,7 +6,7 @@ const Page = () => {
 
   return (
     <Layout>
-      <h1>{ router.query.title }</h1>
+      <h1>{router.query.title}</h1>
       <p>This is post content</p>
     </Layout>
   )
